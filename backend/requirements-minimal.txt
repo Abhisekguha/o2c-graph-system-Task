@@ -1,0 +1,22 @@
+# Minimal Requirements - Use if main requirements.txt has conflicts
+# This installs only the absolute essentials
+
+# Web Framework
+fastapi==0.115.5
+uvicorn==0.32.1
+
+# Data Validation (required by FastAPI)
+pydantic==2.10.3
+
+# LLM
+google-generativeai==0.8.3
+
+# Graph
+networkx==3.4.2
+
+# Data
+pandas==2.2.3
+
+# Utils
+python-dotenv==1.0.1
+python-multipart==0.0.20
